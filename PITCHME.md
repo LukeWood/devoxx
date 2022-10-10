@@ -32,8 +32,6 @@ Image generation, theory and application
 
 ---
 
----
-
 ![bg contain](assets/bruges-full-inpainting.png)
 
 ---
