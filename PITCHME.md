@@ -24,9 +24,17 @@ Image generation, theory and application
 
 ![bg contain](assets/bruges.jpeg)
 
+<!-- Lets start out with an anecodote. -->
+
 ---
 
 ![bg contain](assets/bruges-inpainting.png)
+
+---
+
+---
+
+![bg contain](assets/bruges-full-inpainting.png)
 
 ---
 
