@@ -645,6 +645,8 @@ Other workflows are coming to KerasCV soon!
 
 - https://github.com/LukeWood/Devoxx
 - https://lukewood.github.io/Devoxx
+- [Keras](https://github.com/keras-team/keras)
+- [KerasCV](https://github.com/keras-team/keras-cv)
 
 ---
 
@@ -658,6 +660,3 @@ Other workflows are coming to KerasCV soon!
 - https://openai.com/blog/clip/
 - https://huggingface.co/spaces/lambdalabs/stable-diffusion-image-variations
 
----
-
-# References (pt 2):
