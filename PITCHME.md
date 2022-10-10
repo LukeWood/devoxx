@@ -32,8 +32,8 @@ Image generation, theory and application
 
 ### The Code, Slides, Demos
 
-- Slides: https://lukewood.github.io/Devoxx
-- Code: [https://github.com/LukeWood/Devoxx](https://github.com/LukeWood/Devoxx)
+- Slides: https://lukewood.github.io/devoxx
+- Code: [https://github.com/LukeWood/devoxx](https://github.com/LukeWood/devoxx)
 
 ---
 
@@ -658,8 +658,8 @@ Other workflows are coming to KerasCV soon!
 
 # Thank you!
 
-- https://github.com/LukeWood/Devoxx
-- https://lukewood.github.io/Devoxx
+- https://github.com/LukeWood/devoxx
+- https://lukewood.github.io/devoxx
 - [Keras](https://github.com/keras-team/keras)
 - [KerasCV](https://github.com/keras-team/keras-cv)
 
