@@ -527,7 +527,22 @@ Teach new concepts to StableDiffusion!
 
 ###### Step 1: collect 3-5 images of your object
 
-![height:200px](assets/cat-toy.png)
+![height:200px](assets/pcatmeme.png)
+
+```python
+urls = [
+    "https://i.imgur.com/VIedH1X.jpg",
+    "https://i.imgur.com/iLkM4Ar.jpg",
+    "https://i.imgur.com/eBw13hE.png",
+]
+files = [tf.keras.utils.get_file(origin=url) for url in urls]
+# Resize images
+resize = keras.layers.Resizing(height=512, width=512, crop_to_aspect_ratio=True)
+images = [keras.utils.load_img(img) for img in files]
+images = [keras.utils.img_to_array(img) for img in images]
+images = np.array([resize(img) for img in images])
+visualization.plot_gallery(images, value_range=(0, 255), rows=1, cols=3)
+```
 
 ---
 
@@ -659,4 +674,3 @@ Other workflows are coming to KerasCV soon!
 - https://keras.io/examples/generative/ddim/
 - https://openai.com/blog/clip/
 - https://huggingface.co/spaces/lambdalabs/stable-diffusion-image-variations
-
