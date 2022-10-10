@@ -1,13 +1,11 @@
 {
-  "name": "marp-cli-example",
+  "name": "devoxx-slides",
   "version": "0.0.0",
-  "author": "Yuki Hattori <yukihattori1116@gmail.com>",
-  "license": "WTFPL",
+  "author": "Luke Wood <lukewoodcs@gmail.com>",
   "private": true,
   "scripts": {
     "build": "rimraf public && npm run -s og-image && npm run -s deck",
-    "deck": "marp --no-stdin PITCH.md -o public/index.html && ncp assets public/assets",
-    "og-image": "marp --no-stdin PITCHME.md -o public/og-image.jpg",
+    "deck": "marp --no-stdin PITCHME.md -o public/index.html && ncp assets public/assets",
     "start": "marp -ps .",
     "dev": "marp -psw .",
     "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") npm run build"
