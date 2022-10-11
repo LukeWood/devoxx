@@ -16,7 +16,6 @@ _paginate: false
 <style scoped>p { color: #EEE }</style>
 Image generation, theory and application
 
-
 [Luke Wood]((https://lukewood.xyz))
 
 <!-- For the technical parts, I will assume you have some knowledge of general machine learning, but not generative modeling. -->
@@ -39,8 +38,9 @@ Image generation, theory and application
 
 ### The Code, Slides, Demos
 
-- Slides: https://lukewood.github.io/devoxx
+<style scoped>p, li {font-size: 0.8rem;}</style>
 - Slides (PDF): https://lukewood.github.io/devoxx/index.pdf
+- Slides (HTML): https://lukewood.github.io/devoxx
 - Code (for the slides): https://github.com/LukeWood/devoxx
 
 ---
@@ -48,6 +48,8 @@ Image generation, theory and application
 ### About me
 
 ![bg left](assets/avatar.jpg)
+
+<style scoped>p, li {font-size: 0.8rem;}</style>
 
 - From San Diego
 - Work on the [Keras team](https://keras.io)
@@ -675,10 +677,12 @@ Other workflows are coming to KerasCV soon!
 
 # References:
 
-- https://jalammar.github.io/illustrated-stable-diffusion/
-- https://openai.com/blog/dall-e-introducing-outpainting/
-- https://keras.io/examples/generative/vae/
-- https://keras.io/examples/generative/random_walks_with_stable_diffusion/
-- https://keras.io/examples/generative/ddim/
-- https://openai.com/blog/clip/
-- https://huggingface.co/spaces/lambdalabs/stable-diffusion-image-variations
+<style scoped>p, li {font-size: 0.8rem;}</style>
+
+- [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/)
+- [DALL-E: Introducing Outpainting](https://openai.com/blog/dall-e-introducing-outpainting/)
+- [keras.io: Variational AutoEncoder](https://keras.io/examples/generative/vae/)
+- [keras.io: A walk through latent space with Stable Diffusion](https://keras.io/examples/generative/random_walks_with_stable_diffusion/)
+- [Denoising Diffusion Implicit Models](https://keras.io/examples/generative/ddim/)
+- [CLIP: Connexting Text and Images](https://openai.com/blog/clip/)
+- [Stable Diffusion Image Variations](https://huggingface.co/spaces/lambdalabs/stable-diffusion-image-variations)
