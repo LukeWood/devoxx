@@ -217,6 +217,23 @@ Image to image workflows GUIDED by text
 ---
 ![bg contain](assets/stable-diffusion-img2img-image-to-image.png)
 
+
+---
+
+![bg contain](assets/bruges.jpeg)
+
+---
+
+![bg contain](assets/bruges-inpainting.png)
+
+---
+
+![bg contain](assets/bruges-full-inpainting.png)
+
+---
+
+![bg contain](assets/bruges-unicorn.png)
+
 ---
 
 Image to image inpainting (as seen in the intro)!
@@ -228,6 +245,11 @@ Image to image inpainting (as seen in the intro)!
 ---
 
 ![bg contain](assets/original-girl-with-a-pearl-earring.jpg)
+
+<!--
+Girl with a Pearl Earring
+Painting by Johannes Vermeer
+-->
 
 ---
 
@@ -251,6 +273,11 @@ Lets take a step back!  How does this all work?
 
 ### AutoEncoders
 
+
+![](assets/autoencoder_schema.jpeg)
+
+---
+
 - AutoEncoders: travel back to 1987
 - early days of ML
 - no large scale data
@@ -266,7 +293,6 @@ TensorFlow, GPUs, large datasets
 
 ### <!-- fit --> AutoEncoders are a form of compression
 
-![](assets/autoencoder_schema.jpeg)
 
 ---
 
@@ -278,17 +304,13 @@ TensorFlow, GPUs, large datasets
 
 <!-- This is why they are not used everywhere -->
 
+
 ---
 
 ###  <!-- fit -->  ... but what happens in between real samples?
 
-![height:500px](assets/vae_14_0.png)
-
----
-
 ![bg contain right](assets/vae_representation.png)
 
-__From keras.io:__
 ```
 def plot_label_clusters(vae, data, labels):
     # display a 2D plot of the digit classes in the latent space
@@ -306,6 +328,12 @@ x_train = np.expand_dims(x_train, -1).astype("float32") / 255
 
 plot_label_clusters(vae, x_train, y_train)
 ```
+
+---
+
+### Generate new images!
+
+![height:500px](assets/vae_14_0.png)
 
 ---
 
@@ -360,6 +388,11 @@ class Sampling(layers.Layer):
 # Any Questions?
 
 (on continuity only please)
+<!--
+So we just covered the concept of a latent representation of an
+image dataset, and the fact that latent representations are
+continuous, any questions?
+ -->
 
 ---
 
@@ -708,7 +741,7 @@ Follow along on [Colab](https://colab.research.google.com/drive/1HgK0LWKMs_vw3xp
 
 - limitless possibilities
 - the power of multi-modal models
-- timelines
+- how fast the field is evolving
 
 ---
 
