@@ -18,21 +18,65 @@ Image generation, theory and application
 
 [Luke Wood]((https://lukewood.xyz))
 
-<!-- For the technical parts, I will assume you have some knowledge of general machine learning, but not generative modeling. -->
+<!--
+
+- Hello, I am Luke Wood and this is "Have you ever seen an astrunaut riding a horse?"
+- This talk covers a little history of generative models, modern image generation models, and more specifically the architecture of the popular StableDiffusion model.
+- For the technical parts, I will assume you have some knowledge of general machine learning, but not generative modeling.
+
+-->
 
 ---
 
 ![bg contain](assets/bruges.jpeg)
 
-<!-- Lets start out with an anecodote. -->
+<!--
+Lets start out with an anecodote:
+
+- I was in Bruges this past week
+- wanted to get a picture by the famous waterway
+- a few boats in the water
+- normally you wait and get another picture
+-->
 
 ---
 
 ![bg contain](assets/bruges-inpainting.png)
 
+<!--
+So while this might look photoshopped, it is not!
+
+The edits made to this photo were actually done by a generative image model.
+
+- used DALLE-2
+
+- realized I had no image of the landscale itself!  
+- the weather was no longer good
+-->
+
 ---
 
 ![bg contain](assets/bruges-full-inpainting.png)
+
+
+<!--
+there we go, now we have just the landscape.
+
+Then I decided, well, while I'm using a generative image model I may as well
+try something a bit more fun!
+-->
+
+---
+
+![bg contain](assets/bruges-unicorn.png)
+
+
+<!--
+- as you can see, these models are quite capable
+- DALLE-2 is a "multi-modal"
+- multi model introduction
+- point out wide variety of use cases
+-->
 
 ---
 
@@ -40,8 +84,16 @@ Image generation, theory and application
 
 <style scoped>p, li {font-size: 0.8rem;}</style>
 - Slides (PDF): https://lukewood.github.io/devoxx/index.pdf
-- Slides (HTML): https://lukewood.github.io/devoxx
+- Slides (Web): https://lukewood.github.io/devoxx
 - Code (for the slides): https://github.com/LukeWood/devoxx
+
+<!--
+Follow along with the slides linked above.
+
+If you have a laptop use the web version, if you have a phone use the PDF version.
+There is some sort of bug in the slide rendering system I use on mobile
+devices, but you can read the PDF version as a workaround.
+-->
 
 ---
 
@@ -63,9 +115,19 @@ Image generation, theory and application
 ![](assets/larson.png)
 
 - ML since 2015
-- Generative modeling since 2016
+- Generative modeling since 2016 (off & on)
 - Keras team member
 - Pursuing my Ph.D in ML at UC San Diego (part time)
+
+
+
+<!--
+- Got started with generative modeling in 2016~ or so
+- These are the GitHub avatars of our ML group
+- Actually this guy (Ian) works on KerasCV now in a full time role
+- Still do some ML research with this professor in my spare time
+- Keep an eye out for these guys a little later in the talk
+-->
 
 ---
 
@@ -183,7 +245,11 @@ Lets take a step back!  How does this all work?
 
 ---
 
-### <!-- fit ---> Representations & Continuity
+# Representations & Continuity
+
+---
+
+### AutoEncoders
 
 - AutoEncoders: travel back to 1987
 - early days of ML
@@ -344,7 +410,7 @@ ul {
 
 ---
 
-# <!-- fit --> Push super resolution to the limit!
+## Push super resolution to the limit!
 
 ![bg left contain](assets/diffusion-flowers.gif)
 
@@ -353,7 +419,7 @@ ul {
 
 ---
 
-# More reading on keras.io
+## More reading on keras.io
 
 - [Denoising Diffusion Implicit Models](https://keras.io/examples/generative/ddim/)
 
@@ -365,7 +431,7 @@ ul {
 
 ---
 
-# Latent diffusion models
+## Latent diffusion models
 
 - improves efficiency
 - use VAE decoder
@@ -480,13 +546,6 @@ images = model.text_to_image(
 )
 plot_images(images)
 ```
-
-
----
-
-# Image inpainting
-
-Do I even have time? for this?
 
 ---
 
@@ -667,8 +726,12 @@ Other workflows are coming to KerasCV soon!
 ---
 
 # Thank you!
-
-- Slides: https://lukewood.github.io/devoxx
+<style scoped>
+ul {
+  font-size: 0.8em;
+}
+</style>
+- Slides (Web): https://lukewood.github.io/devoxx
 - Slides (PDF): https://lukewood.github.io/devoxx/index.pdf
 - [Keras](https://github.com/keras-team/keras)
 - [KerasCV](https://github.com/keras-team/keras-cv)
