@@ -4,8 +4,9 @@
   "author": "Luke Wood <lukewoodcs@gmail.com>",
   "private": true,
   "scripts": {
-    "build": "rimraf public && npm run -s og-image && npm run -s deck",
+    "build": "rimraf public && npm run -s og-image && npm run -s deck && npm run -s pdf",
     "deck": "marp --no-stdin PITCHME.md -o public/index.html && ncp assets public/assets",
+    "pdf": "marp --no-stdin PITCHME.md -o public/index.pdf",
     "og-image": "marp --no-stdin PITCHME.md -o public/og-image.jpg",
     "start": "marp -ps .",
     "dev": "marp -psw .",
