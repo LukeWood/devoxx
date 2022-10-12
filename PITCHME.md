@@ -734,7 +734,7 @@ plot_images(images)
 
 Prompt requests?
 
-Follow along on [Colab](https://colab.research.google.com/drive/1HgK0LWKMs_vw3xpymmkVffEZh-P3YUYD?usp=sharing)!
+Follow along on [Colab](https://colab.sandbox.google.com/github/lukewood/devoxx/blob/master/notebooks/basic_demo.ipynb)!
 
 ---
 
