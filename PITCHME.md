@@ -553,13 +553,15 @@ You now know how StableDiffusion works!
 
 # Text to Image Generation
 
-![height:320px](assets/astronaut-riding-horse.png)
+---
 
-_"An astronaut riding a horse"_
+![bg contain](assets/stable_diffusion_inference_steps.png)
 
 ---
 
-![bg contain](assets/sd_architecture.png)
+![height:320px](assets/astronaut-riding-horse.png)
+
+_"An astronaut riding a horse"_
 
 ---
 
