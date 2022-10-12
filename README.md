@@ -12,4 +12,4 @@ _Slides for [Luke Wood's](https://lukewood.xyz) Devoxx 2022 Belgium Conference P
 
 [Link to live slides](https://lukewood.github.io/devoxx)
 
-
+[Link to mobile friendly slides](https://lukewood.github.io/devoxx/index.pdf)
