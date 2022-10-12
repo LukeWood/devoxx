@@ -6,7 +6,7 @@
 
 ---
 
-![width:500px](assets/astro-naught-riding-horse.png)
+![](assets/astro-naught-riding-horse.png | width=500)
 
 _Slides for [Luke Wood's](https://lukewood.xyz) Devoxx 2022 Belgium Conference Presentation_
 
