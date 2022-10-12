@@ -116,8 +116,7 @@ devices, but you can read the PDF version as a workaround.
 
 - ML since 2015
 - Generative modeling since 2016 (off & on)
-- Keras team member
-- Pursuing my Ph.D in ML at UC San Diego (part time)
+- Recent work on StableDiffusion in KerasCV
 
 
 
