@@ -17,6 +17,4 @@ Quick Links:
 ---
 
 <img src="assets/astro-naught-riding-horse.png" width=500>
-
-![](media/devoxx.jpg)
-
+<img src="media/devoxx.jpg" width=500>
