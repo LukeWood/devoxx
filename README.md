@@ -1,5 +1,6 @@
 # Have You Ever Seen an Astronaut Riding a Horse?  
 
+[Watch the presentation on YouTube](https://www.youtube.com/watch?v=zE8gRayJkqc)
 
 <a target="_blank" href="https://colab.research.google.com/github/LukeWood/devoxx/blob/master/notebooks/basic_demo.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
