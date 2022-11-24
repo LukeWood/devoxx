@@ -1,4 +1,4 @@
-# Have You Ever Seen an Astronaut Riding a Horse?  
+# Devoxx StableDiffusion Presentation
 
 [Watch the presentation on YouTube!](https://youtube.com/watch?v=KaR51-pwzlU)
 
