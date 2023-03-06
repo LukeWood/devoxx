@@ -10,7 +10,7 @@ _paginate: false
 
 <!-- _backgroundColor: "#333" -->
 <style scoped>h2{color: #EEE}</style>
-## <!--fit--> Have You Ever Seen an Astronaut Riding a Horse?
+## <!--fit--> Theory and Application of Image Generation
 ![bg brightness:60%](assets/astro-naught-riding-horse.png)
 
 <style scoped>p { color: #EEE }</style>
