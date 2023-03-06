@@ -20,7 +20,7 @@ Image generation, theory and application
 
 <!--
 
-- Hello, I am Luke Wood and this is "Have you ever seen an astrunaut riding a horse?"
+- Hello, I am Luke Wood and this is "Theory and Application of Image Generation"
 - This talk covers a little history of generative models, modern image generation models, and more specifically the architecture of the popular StableDiffusion model.
 - For the technical parts, I will assume you have some knowledge of general machine learning, but not generative modeling.
 
